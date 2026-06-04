@@ -1,19 +1,45 @@
 # 🤖 C++ Chatbot Number Guessing Game
 
-A simple C++ console application that combines a Number Guessing Game with a Rule-Based Chatbot.
+A C++ console-based application that combines an interactive Number Guessing Game with a Rule-Based Chatbot. The chatbot helps users understand game rules, scoring, gameplay, and winning conditions through keyword-based conversations.
 
-## Features
+---
+
+## 📌 Features
 
 * Number Guessing Game
 * Rule-Based Chatbot
-* Case-Insensitive Input
-* Score Tracking
+* Case-Insensitive Input Handling
+* Score Tracking System
 * Input Validation
 * Random Number Generation
-* Keyword-Based Responses
-* Interactive Chat Support
+* Interactive User Experience
+* Keyword-Based Response System
+* Exception Handling for Invalid Inputs
 
-## How to Run
+---
+
+## 🏗️ Project Structure
+
+```text
+cpp-chatbot/
+│
+├── chatbot.cpp
+├── README.md
+├── .gitignore
+└── screenshots/
+    ├── game-start.png
+    ├── chatbot-rules.png
+    ├── chatbot-score.png
+    ├── chatbot-how-to-play.png
+    ├── chatbot-player.png
+    ├── chatbot-hello.png
+    ├── chatbot-exit.png
+    └── game-win.png
+```
+
+---
+
+## ⚙️ How to Run
 
 ### Compile
 
@@ -27,15 +53,21 @@ g++ chatbot.cpp -o chatbot
 ./chatbot
 ```
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 * C++
-* STL (String, Algorithm)
+* Standard Template Library (STL)
+* String Manipulation
+* Algorithm Library
 * Random Number Generation
 * Git
 * GitHub
 
-## Screenshots
+---
+
+## 📸 Screenshots
 
 ### Game Start
 
@@ -69,7 +101,9 @@ g++ chatbot.cpp -o chatbot
 
 ![Win](screenshots/game-win.png)
 
-## Project Highlights
+---
+
+## 🚀 Project Highlights
 
 * Developed a console-based Number Guessing Game in C++.
 * Integrated a rule-based chatbot using keyword matching.
@@ -77,7 +111,29 @@ g++ chatbot.cpp -o chatbot
 * Added score tracking and move limitation.
 * Used random number generation for dynamic gameplay.
 * Applied input validation and exception handling.
+* Structured the project using Git and GitHub version control.
+* Created project documentation with screenshots.
 
-## Author
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* C++ Programming Fundamentals
+* Functions and Control Structures
+* String Processing
+* Exception Handling
+* User Input Validation
+* Git & GitHub Workflow
+* Project Documentation
+
+---
+
+## 👨‍💻 Author
 
 **Asha Kamal**
+
+GitHub: https://github.com/Asha21697
+
+Project Repository: https://github.com/Asha21697/cpp-chatbot
